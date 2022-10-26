@@ -6,7 +6,7 @@ import com.example.patterns.behavioral.cor.ErrorWebsite;
 
 public class ChainOfResponsibility {
     public static void main(String[] args) {
-        System.out.println("Hello");
+
         ErrorWebsite connectionError = new ConnectionError(3);
         ErrorWebsite authorizationError = new AuthorizationError(5);
 
